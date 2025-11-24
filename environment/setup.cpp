@@ -7,5 +7,7 @@ int main() {
 	std::cout << "Made directories! Starting Makefile...";
 	system("touch Makefile");
 	std::cout << "Done!\n";
-	std::cout << "Done setting up! If you need help with the Makefile,\nclick here: 'https://github.com/KhanMarauder/Dev-Tools/tutorials/Makefile.md'\n(You may have to copy-paste the link in a browser)!\n";
+	std::cout << "Done setting up! If you need help with the Makefile," << std::endl
+		<< "click here: 'https://github.com/KhanMarauder/Dev-Tools/tutorials/Makefile.md'\n(You may have to copy-paste the link in a browser)!"
+		<< std::endl;
 }
